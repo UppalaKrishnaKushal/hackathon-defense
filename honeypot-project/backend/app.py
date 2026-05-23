@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-LOG_FILE = "logs/attacks.log"
+LOG_FILE = "/app/logs/attacks.log"
 
 os.makedirs("logs", exist_ok=True)
 
@@ -32,8 +32,10 @@ PATH: /
 @app.route("/admin")
 def admin():
     ip = request.remote_addr
+    print(f"[ALERT] Suspicious admin access attempt from {ip}")
 
     log = f"""
+
 [ADMIN ACCESS ATTEMPT]
 TIME: {datetime.now()}
 IP: {ip}
