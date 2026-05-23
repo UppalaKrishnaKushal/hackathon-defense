@@ -12,14 +12,32 @@ os.makedirs("logs", exist_ok=True)
 def home():
     ip = request.remote_addr
     user_agent = request.headers.get("User-Agent")
+    severity = "LOW"
+    tool = "Unknown"
+
+    if "nmap" in user_agent.lower():
+        severity = "HIGH"
+        tool = "Nmap Scanner"
+
+    elif "python" in user_agent.lower():
+        severity = "MEDIUM"
+        tool = "Python Script"
+
+    elif "curl" in user_agent.lower():
+        severity = "MEDIUM"
+        tool = "Curl"
+
 
     log = f"""
 TIME: {datetime.now()}
 IP: {ip}
 USER-AGENT: {user_agent}
 PATH: /
+TOOL: {tool}
+SEVERITY: {severity}
 -----------------------------------
 """
+
 
     with open(LOG_FILE, "a") as f:
         f.write(log)
@@ -34,14 +52,32 @@ def admin():
     ip = request.remote_addr
     print(f"[ALERT] Suspicious admin access attempt from {ip}")
 
+    severity = "LOW"
+    tool = "Unknown"
+
+    if "nmap" in (request.headers.get("User-Agent") or "").lower():
+        severity = "HIGH"
+        tool = "Nmap Scanner"
+
+    elif "python" in (request.headers.get("User-Agent") or "").lower():
+        severity = "MEDIUM"
+        tool = "Python Script"
+
+    elif "curl" in (request.headers.get("User-Agent") or "").lower():
+        severity = "MEDIUM"
+        tool = "Curl"
+
     log = f"""
 
 [ADMIN ACCESS ATTEMPT]
 TIME: {datetime.now()}
 IP: {ip}
 PATH: /admin
+TOOL: {tool}
+SEVERITY: {severity}
 -----------------------------------
 """
+
 
     with open(LOG_FILE, "a") as f:
         f.write(log)
