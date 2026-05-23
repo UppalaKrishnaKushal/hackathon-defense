@@ -1,0 +1,29 @@
+{"timestamp": "2026-05-23T11:03:57.001936", "service": "SSH", "attacker_ip": "127.0.0.1", "port": 51355, "data": ""}
+{"timestamp": "2026-05-23T11:04:41.684824", "service": "SSH", "attacker_ip": "127.0.0.1", "port": 58000, "data": "user test\n"}
+{"timestamp": "2026-05-23T11:05:00.484267", "service": "SSH", "attacker_ip": "127.0.0.1", "port": 56472, "data": "USER root\n"}
+{"timestamp": "2026-05-23T11:10:02.543896", "service": "HTTP", "attacker_ip": "127.0.0.1", "port": 58824, "data": "GET /admin HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8457\r\nHost: 127.0.0.1:8080\r\nConnection: Keep-Alive\r\n\r\n"}
+{"timestamp": "2026-05-23T11:10:04.577941", "service": "SSH", "attacker_ip": "127.0.0.1", "port": 50064, "data": "USER root\n"}
+{"timestamp": "2026-05-23T11:14:36.974600", "service": "HTTP", "attacker_ip": "127.0.0.1", "port": 57227, "data": ""}
+{"timestamp": "2026-05-23T11:14:36.975032", "service": "SMB", "attacker_ip": "127.0.0.1", "port": 57228, "data": "b''"}
+{"timestamp": "2026-05-23T11:14:44.372289", "service": "SSH", "attacker_ip": "127.0.0.1", "port": 57235, "data": "USER root\n"}
+{"timestamp": "2026-05-23T11:15:02.456458", "service": "HTTP", "attacker_ip": "127.0.0.1", "port": 57254, "data": "GET /admin HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8457\r\nHost: 127.0.0.1:8080\r\nConnection: Keep-Alive\r\n\r\n"}
+{"timestamp": "2026-05-23T11:15:10.751026", "service": "HTTP", "attacker_ip": "127.0.0.1", "port": 57265, "data": "GET /admin HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8457\r\nHost: 127.0.0.1:8080\r\nConnection: Keep-Alive\r\n\r\n"}
+{"timestamp": "2026-05-23T11:17:25.282520", "service": "HTTP", "attacker_ip": "127.0.0.1", "port": 62299, "data": ""}
+{"timestamp": "2026-05-23T11:17:25.285329", "service": "SMB", "attacker_ip": "127.0.0.1", "port": 62300, "data": "b''"}
+{"timestamp": "2026-05-23T11:19:59.051669", "service": "HTTP", "attacker_ip": "127.0.0.1", "port": 55879, "data": ""}
+{"timestamp": "2026-05-23T11:19:59.053758", "service": "SMB", "attacker_ip": "127.0.0.1", "port": 55880, "data": "b''"}
+{"timestamp": "2026-05-23T11:25:02.882362", "service": "HTTP", "attacker_ip": "127.0.0.1", "port": 50313, "data": ""}
+{"timestamp": "2026-05-23T11:25:02.883127", "service": "SMB", "attacker_ip": "127.0.0.1", "port": 50314, "data": "b''"}
+{"timestamp": "2026-05-23T11:28:35.442791", "service": "SMB", "attacker_ip": "127.0.0.1", "port": 55138, "data": "b''"}
+{"timestamp": "2026-05-23T11:28:42.364949", "service": "SMB", "attacker_ip": "127.0.0.1", "port": 63112, "data": "b''"}
+{"timestamp": "2026-05-23T11:33:42.074134", "service": "SSH", "attacker_ip": "127.0.0.1", "port": 59012, "data": ""}
+{"timestamp": "2026-05-23T11:33:49.859702", "service": "SSH", "attacker_ip": "127.0.0.1", "port": 59017, "data": "test-user\r\n"}
+{"timestamp": "2026-05-23T11:34:10.911813", "service": "HTTP", "attacker_ip": "127.0.0.1", "port": 51631, "data": "GET /admin HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8457\r\nHost: 127.0.0.1:8080\r\nConnection: Keep-Alive\r\n\r\n"}
+{"timestamp": "2026-05-23T11:34:25.047256", "service": "HTTP", "attacker_ip": "127.0.0.1", "port": 52377, "data": "GET /admin HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8457\r\nHost: 127.0.0.1:8080\r\nConnection: Keep-Alive\r\n\r\n"}
+{"timestamp": "2026-05-23T11:34:40.101090", "service": "FTP", "attacker_ip": "127.0.0.1", "port": 60990, "data": "USER root\r\n"}
+{"timestamp": "2026-05-23T11:35:05.425864", "service": "SMB", "attacker_ip": "127.0.0.1", "port": 56613, "data": "b'HELLO_SMB'"}
+{"timestamp": "2026-05-23T11:40:32.367779", "service": "SSH", "attacker_ip": "127.0.0.1", "port": 51533, "data": ""}
+{"timestamp": "2026-05-23T11:40:43.432727", "service": "HTTP", "attacker_ip": "127.0.0.1", "port": 51545, "data": "GET /admin HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8457\r\nHost: 127.0.0.1:8080\r\nConnection: Keep-Alive\r\n\r\n"}
+{"timestamp": "2026-05-23T11:40:54.881405", "service": "FTP", "attacker_ip": "127.0.0.1", "port": 51549, "data": "USER root\r\n"}
+{"timestamp": "2026-05-23T12:27:20.187406", "service": "HTTP", "attacker_ip": "127.0.0.1", "port": 52270, "data": "GET /admin HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/"}
+{"timestamp": "2026-05-23T12:31:05.475792", "service": "HTTP", "attacker_ip": "127.0.0.1", "port": 64827, "data": "GET /admin HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/"}
